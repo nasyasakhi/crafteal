@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Food Website</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Crafteal</h1>
+            <img src="assets/product1.png" alt="">
+        </div>
+        <nav>
+            <i class="bi menu bi-list"></i>
+            <div class="right_menu">
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="#features">Tentang Kami</a></li>
+                    <li><a href="#products">Misi</a></li>
+                    <li><a href="#categories">Kategori</a></li>
+                    <li><a href="#review">Kontak</a></li>
+                </ul>
+                <div class="user-cart">
+                    <i class="bi bi-cart-dash-fill"></i>
+                    <div class="user">
+                        <img src="assets/user" alt="">
+                    </div> 
+                </div>
+            </div> 
+        </nav>
+        <div class="left-menu">
+            <a href="#">process</a>
+            <a href="#">design</a>
+            <a href="#">materials</a>
+        </div>
+        <section>
+            <div class="content">
+                <h1 id="title" style="color: white;">Kursi Malas</h1>
+                <p style="color: white;">Kursi rotan melengkung ini nyaman dan tahan lama dengan anyaman yang kokoh.</p>
+                <div class="price_order">
+                    <div class="price">
+                        <h2 id="price_cont">Rp.230.000</h2>
+                        <p>total payable</p>
+                    </div>
+                    <a href="#" class="button-satu">Order Now</a>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="assets/product-1.png" class="dis" alt="">
+                    <h4>$18</h4>
+                    <h5>Kursi Hias</h5>
+                    <p>Kursi hias rotan ini adalah dekorasi sempurna untuk rumah Anda, menambah estetika ruangan dengan desain artistik dan anyaman rotan yang rumit, tetap fungsional untuk duduk.
+                    </p>
+                    <div class="rate_cart">
+                        <h6>5.0</h6>
+                        <i class="bi bi-cart-dash-fill"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/product-2.png" class="dis" alt="">
+                    <h4>$18</h4>
+                    <h5>Kursi Taman</h5>
+                    <p>Kursi taman rotan ini sempurna untuk ruang luar. Desain klasik dan kenyamanan tinggi memastikan keindahan. Rotan tahan cuaca menjamin kursi ini awet dan tetap menarik.</p>
+                    <div class="rate_cart">
+                        <h6>5.0</h6>
+                        <i class="bi bi-cart-dash-fill"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/product-3.png" class="dis" alt="">
+                    <h4>$18</h4>
+                    <h5>Kursi Santai</h5>
+                    <p>Kursi santai rotan ini nyaman dan bergaya. Bentuk ergonomis mendukung tubuh dengan baik. Anyaman rotan menambah sentuhan alami pada dekorasi rumah Anda</p>
+                    <div class="rate_cart">
+                        <h6>5.0</h6>
+                        <i class="bi bi-cart-dash-fill"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/product-4.png" class="dis" alt="">
+                    <h4>$18</h4>
+                    <h5>Kursi Kerja</h5>
+                    <p>Kursi kerja rotan ini nyaman sepanjang hari. Sandaran ergonomis dan tempat duduk nyaman menjaga postur tubuh. Desain modern cocok untuk dekorasi kantor.
+
+                    </p>
+                    <div class="rate_cart">
+                        <h6>5.0</h6>
+                        <i class="bi bi-cart-dash-fill"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/product-5.png" class="dis" alt="">
+                    <h4>$18</h4>
+                    <h5>Kursi Makan</h5>
+                    <p>Kursi makan rotan ini nyaman dan elegan. Dirancang untuk meja makan, memberikan dukungan selama makan. Anyaman rotan memberikan nuansa alami.</p>
+                    <div class="rate_cart">
+                        <h6>5.0</h6>
+                        <i class="bi bi-cart-dash-fill"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/produk-6.png" class="dis" alt="">
+                    <h4>$18</h4>
+                    <h5>Kursi Teras</h5>
+                    <p>Kursi teras rotan ini cocok untuk ruang luar. Dengan desain klasik dan kenyamanan tinggi, kursi ini sempurna untuk menikmati sore di teras. Rotan tahan cuaca memastikan kursi ini tetap awet.</p>
+                    <div class="rate_cart">
+                        <h6>5.0</h6>
+                        <i class="bi bi-cart-dash-fill"></i>
+                    </div>
+                </div>
+            </div>
+        <div class="social">
+           <div class="btns">
+            <i class="bi bi-caret-left-fill"></i>
+            <i class="bi bi-caret-right-fill"></i>
+           </div>
+           <div class="icons">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            
+           </div>
+        </div> 
+        </section>
+
+        
+
+        
+    </header>
+
+    
+
+    
+    <script>
+        let left = document.getElementsByClassName('bi-caret-left-fill')[0];
+let right = document.getElementsByClassName('bi-caret-right-fill')[0];
+let cards = document.getElementsByClassName('cards')[0];
+
+left.addEventListener('click', ()=>{
+  cards.scrollLeft -= 150;
+})
+right.addEventListener('click', () =>{
+  cards.scrollLeft += 150;
+})
+
+
+let poster = document.getElementById('poster');
+let title = document.getElementById('title');
+let price_cont = document.getElementById('price_cont');
+
+Array.from(document.getElementsByClassName('card')).forEach((ele, i)=>{
+//   console.log(ele)
+
+    ele.addEventListener('click', ()=>{
+        poster.src = ele.getElementsByTagName('img')[0].src;
+        title.innerText = ele.getElementsByTagName('h5')[0].innerText;
+        price_cont.innerText = ele.getElementsByTagName('h4')[0].innerText;
+})
+
+
+})
+    </script>
+</body>
+</html>
